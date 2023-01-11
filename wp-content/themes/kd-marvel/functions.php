@@ -7,9 +7,9 @@ if ( ! defined( '_S_VERSION' ) ) {
 define('ICON_PATH', dirname(__FILE__) . '/icons/');
 define('COMPONENTS_PATH', dirname(__FILE__) . '/components/');
 
-require_once(dirname(__FILE__) . './inc/carbon-fields.php');
-require_once(dirname(__FILE__) . './inc/customizer.php');
-require_once(ICON_PATH . './icon-btn.php');
+require_once(dirname(__FILE__) . '/inc/carbon-fields.php');
+require_once(dirname(__FILE__) . '/inc/customizer.php');
+require_once(ICON_PATH . 'icon-btn.php');
 
 function kd_marvel_setup() {
 
